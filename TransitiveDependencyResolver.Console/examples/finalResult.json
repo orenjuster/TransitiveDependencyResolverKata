@@ -1,0 +1,268 @@
+{
+  "branches": [
+    {
+      "module": "Admin",
+      "dependencies": [ "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.BusinessDaysService", "Tipalti.Dashboard", "TCommon", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL", "Tipalti.Migrator" ]
+    },
+    {
+      "module": "PayerDashboard",
+      "dependencies": [ "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.BusinessDaysService", "TCommon", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "WorkflowHoster",
+      "dependencies": [ "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.BusinessDaysService", "TCommon", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "VendorsPortal",
+      "dependencies": [ "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.BusinessDaysService", "TCommon", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "UICommon",
+      "dependencies": [ "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.BusinessDaysService", "TCommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "Tipalti.XDomain.Shared",
+      "dependencies": [ "Tipalti.XDomain.Shared.Standard", "Tipalti.IDM" ]
+    },
+    {
+      "module": "Tipalti.TCommon.Shared",
+      "dependencies": [ "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.BusinessDaysService", "TCommon", "Tipalti.IDM" ]
+    },
+    {
+      "module": "Tipalti.SafeTransmit",
+      "dependencies": [ "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.BusinessDaysService", "TCommon", "Tipalti.IDM" ]
+    },
+    {
+      "module": "Tipalti.Risk.Relation.Api",
+      "dependencies": [ "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.BusinessDaysService", "TCommon", "Tipalti.IDM" ]
+    },
+    {
+      "module": "Tipalti.Risk.Relation",
+      "dependencies": [ "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.BusinessDaysService", "TCommon", "Tipalti.IDM" ]
+    },
+    {
+      "module": "Tipalti.ProviderAPIProxy",
+      "dependencies": [ "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.BusinessDaysService", "TCommon", "Tipalti.IDM" ]
+    },
+    {
+      "module": "Tipalti.PayerFileValidationService",
+      "dependencies": [ "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.BusinessDaysService", "TCommon", "Tipalti.IDM" ]
+    },
+    {
+      "module": "Tipalti.Iframe",
+      "dependencies": [ "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.BusinessDaysService", "TCommon", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "Tipalti.EmailFilterCore",
+      "dependencies": [ "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.BusinessDaysService", "TCommon", "Tipalti.IDM" ]
+    },
+    {
+      "module": "Tipalti.AP.DAL",
+      "dependencies": [ "Tipalti.XDomain.Shared.Standard", "Tipalti.XDomain.Shared", "Tipalti.IDM" ]
+    },
+    {
+      "module": "Tipalit.AP.BusinessLogic",
+      "dependencies": [ "Tipalti.TCommon.Shared", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.BusinessDaysService", "TCommon", "Tipalti.IDM" ]
+    },
+    {
+      "module": "TCommon",
+      "dependencies": [ "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.BusinessDaysService", "Tipalti.IDM" ]
+    },
+    {
+      "module": "PayerWebServices",
+      "dependencies": [ "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.BusinessDaysService", "TCommon", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "PayerDashboardAngular",
+      "dependencies": [ "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.BusinessDaysService", "TCommon", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "AdminReports",
+      "dependencies": [ "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.BusinessDaysService", "TCommon", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "Tipalti.IntegrationTest",
+      "dependencies": [ "PayerWebServices", "PayerDashboard", "Tipalti.TCommon.Shared", "VendorsPortal", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.SafeTransmit", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.PayerFileValidationService", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Admin", "Tipalti.AP.Tests", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.Risk.Relation.Api", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "Tipalti.Dashboard", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.Tests.WebData", "Tipalti.AP.UnitTests", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL", "Tipalti.Migrator", "PayerDashboardAngular" ]
+    },
+    {
+      "module": "Tipalt.Tests.Infra",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "TCommon", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "Tipalti.AP.Tests",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "VendorsPortal", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Admin", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "Tipalti.Dashboard", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.Tests.WebData", "Tipalti.AP.UnitTests", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL", "Tipalti.Migrator", "PayerDashboardAngular" ]
+    },
+    {
+      "module": "MockUtilities",
+      "dependencies": [ "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.BusinessDaysService", "TCommon", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "Tipalti.AP.Services",
+      "dependencies": [ "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.BusinessDaysService", "TCommon", "Tipalti.IDM" ]
+    },
+    {
+      "module": "Tipalti.QA.AdminTools",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.SafeTransmit", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "TQACommon", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "Tipalti.QAPaymentProcessors", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL", "Tipalti.Migrator" ]
+    },
+    {
+      "module": "TQACommon",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "Tipalti.ProviderFileSubmitter",
+      "dependencies": [ "Tipalti.XDomain.Shared.Standard", "Tipalti.XDomain.Shared", "Tipalti.IDM" ]
+    },
+    {
+      "module": "Tipalti.QAPaymentProcessors",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "TQACommon", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "Tipalti.Dashboard",
+      "dependencies": [ "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.BusinessDaysService", "TCommon", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "Tipalti.AP.TestingConsole",
+      "dependencies": [ "PayerWebServices", "Tipalti.MachineLearningApi", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "Tipalti.Automapper.Tests",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.SafeTransmit", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "TQACommon", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "Tipalti.QAPaymentProcessors", "Tipalti.QA.AdminTools", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL", "Tipalti.Migrator", "PayerDashboardAngular" ]
+    },
+    {
+      "module": "Tipalti.MachineLearningApi",
+      "dependencies": [ "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.BusinessDaysService", "TCommon", "Tipalti.IDM" ]
+    },
+    {
+      "module": "Tipalti.MachineLearningApiTest",
+      "dependencies": [ "PayerWebServices", "Tipalti.MachineLearningApi", "Tipalti.TCommon.Shared", "VendorsPortal", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Admin", "Tipalti.AP.Tests", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "Tipalti.Dashboard", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.Tests.WebData", "Tipalti.AP.UnitTests", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL", "Tipalti.Migrator", "PayerDashboardAngular" ]
+    },
+    {
+      "module": "Tipalti.UnitTest",
+      "dependencies": [ "PayerWebServices", "PayerDashboard", "Tipalti.TCommon.Shared", "VendorsPortal", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.SafeTransmit", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "TQACommon", "Tipalti.PayerFileValidationService", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Admin", "Tipalti.AP.Tests", "Tipalti.IntegrationTest", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.Risk.Relation.Api", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "Tipalti.Dashboard", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.Tests.WebData", "Tipalti.AP.UnitTests", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL", "Tipalti.Migrator", "PayerDashboardAngular" ]
+    },
+    {
+      "module": "PayerWebServices.Test",
+      "dependencies": [ "PayerWebServices", "PayerDashboard", "Tipalti.TCommon.Shared", "VendorsPortal", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.SafeTransmit", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.PayerFileValidationService", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Admin", "Tipalti.AP.Tests", "Tipalti.IntegrationTest", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.Risk.Relation.Api", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "Tipalti.Dashboard", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.Tests.WebData", "Tipalti.AP.UnitTests", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL", "Tipalti.Migrator", "PayerDashboardAngular" ]
+    },
+    {
+      "module": "Tipalti.InternalReconciliation.BusinessLogic",
+      "dependencies": [ "Tipalti.XDomain.Shared.Standard", "Tipalti.XDomain.Shared", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "Tipalti.InternalReconciliation.DAL",
+      "dependencies": [ "Tipalti.XDomain.Shared.Standard", "Tipalti.XDomain.Shared", "Tipalti.IDM" ]
+    },
+    {
+      "module": "Tipalti.AP.UnitTests",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Admin", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "Tipalti.Dashboard", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.Tests.WebData", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL", "Tipalti.Migrator", "PayerDashboardAngular" ]
+    },
+    {
+      "module": "Tipalti.InternalReconciliation.UnitTests",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "Tipalti.NetsuiteMonitoring",
+      "dependencies": []
+    },
+    {
+      "module": "Tipalti.Tests.WebData",
+      "dependencies": [ "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.BusinessDaysService", "TCommon", "Tipalti.IDM" ]
+    },
+    {
+      "module": "Tipalti.XDomain.Shared.Standard",
+      "dependencies": []
+    },
+    {
+      "module": "Tipalti.Migrator",
+      "dependencies": [ "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.EmailFilterCore", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.BusinessDaysService", "TCommon", "Tipalti.IDM" ]
+    },
+    {
+      "module": "Tipalti.IDM",
+      "dependencies": [ "Tipalti.XDomain.Shared.Standard" ]
+    },
+    {
+      "module": "Tipalti.PullFunds",
+      "dependencies": [ "Tipalti.XDomain.Shared.Standard", "Tipalti.XDomain.Shared", "Tipalti.BusinessDaysService", "Tipalti.IDM" ]
+    },
+    {
+      "module": "Tipalti.NetNow.IntegrationTest",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Admin", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "Tipalti.Dashboard", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL", "Tipalti.Migrator" ]
+    },
+    {
+      "module": "Tipalti.NetNow.UnitTest",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "Tipalti.PayeeValidations",
+      "dependencies": [ "Tipalti.XDomain.Shared.Standard", "Tipalti.XDomain.Shared", "Tipalti.IDM" ]
+    },
+    {
+      "module": "Tipalti.PayeeValidations.UnitTest",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "Tipalti.Idm.UnitTest",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "Tipalti.PullFunds.UnitTest",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Admin", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "Tipalti.Dashboard", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL", "Tipalti.Migrator" ]
+    },
+    {
+      "module": "Tipalti.PullFunds.IntegrationTest",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "TQACommon", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "Tipalti.QAPaymentProcessors", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "Tipalti.ResourcesAPI",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.BusinessDaysService", "TCommon", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL", "Tipalti.PayeeImport" ]
+    },
+    {
+      "module": "Tipalti.ResourcesAPI.IntegrationTest",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "TCommon", "Tipalt.Tests.Infra", "Tipalti.ResourcesAPI", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL", "Tipalti.PayeeImport" ]
+    },
+    {
+      "module": "Tipalti.ResourcesAPI.UnitTest",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "TCommon", "Tipalt.Tests.Infra", "Tipalti.ResourcesAPI", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL", "Tipalti.PayeeImport" ]
+    },
+    {
+      "module": "Tipalti.ConsoleQueueHandler",
+      "dependencies": [ "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.BusinessDaysService", "TCommon", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "Tipalti.PayeeValidations.IntegrationTests",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "Tipalti.BusinessDaysService",
+      "dependencies": [ "Tipalti.XDomain.Shared.Standard", "Tipalti.XDomain.Shared", "Tipalti.IDM" ]
+    },
+    {
+      "module": "Tipalti.BusinessDaysService.UnitTest",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "Tipalti.PayeeImport",
+      "dependencies": [ "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "Tipalti.XDomain.Shared", "Tipalti.BusinessDaysService", "TCommon", "Tipalti.IDM" ]
+    },
+    {
+      "module": "Tipalti.PayeeImport.UnitTest",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL", "Tipalti.PayeeImport" ]
+    },
+    {
+      "module": "Tipalti.MultiFx.UnitTest",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "Tipalti.MultiFx.IntegrationTest",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL" ]
+    },
+    {
+      "module": "Tipalti.Tax.IntegrationTest",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "TQACommon", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Admin", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "Tipalti.Dashboard", "Tipalti.QAPaymentProcessors", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL", "Tipalti.Migrator" ]
+    },
+    {
+      "module": "Tipalti.PaymentsVisibility.IntegrationTest",
+      "dependencies": [ "PayerWebServices", "Tipalti.TCommon.Shared", "Tipalit.AP.BusinessLogic", "Tipalti.XDomain.Shared.Standard", "Tipalti.PullFunds", "Tipalti.InternalReconciliation.BusinessLogic", "WorkflowHoster", "Tipalti.EmailFilterCore", "Tipalti.Risk.Relation", "Tipalti.NetsuiteMonitoring", "Tipalti.AP.Services", "Tipalti.AP.DAL", "Tipalti.PayeeValidations", "MockUtilities", "Tipalti.XDomain.Shared", "Tipalti.ProviderFileSubmitter", "Tipalti.Iframe", "Tipalti.BusinessDaysService", "TCommon", "Tipalt.Tests.Infra", "UICommon", "Tipalti.IDM", "Tipalti.InternalReconciliation.DAL", "PayerDashboardAngular" ]
+    }
+  ]
+}
