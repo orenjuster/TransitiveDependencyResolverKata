@@ -15,7 +15,24 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DepencyTreeFromJson\DepencyTreeFromJson.csproj" />
     <ProjectReference Include="..\TransitiveDependencyResolver\TransitiveDependencyResolver.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="examples\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="examples\finalResult.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="examples\projectGuids.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="examples\projectNames.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
